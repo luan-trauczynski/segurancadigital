@@ -13,9 +13,7 @@
 *{
     font-weight: 400;
 }
-.cadeado{
-size-adjust: 20px;
-}
+
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
@@ -107,12 +105,6 @@ body{
     margin: 0;
     font-size: 24px;
 }
-
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-        flex-direction: row;
-    }
-}
 .checkbox{
     width: 20px;
     height: 20px;
@@ -129,7 +121,7 @@ label{
 .forca{
     height: 30px;
     position: relative;
-    bottom: 30px;
+    bottom: 30px;  
 }
 .fraca{
     width: 25%;
@@ -146,4 +138,16 @@ label{
 .forte{
     background-color: #00FF85;
     width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
 }
