@@ -1,3 +1,8 @@
+/*
+INTEGRANTE:
+Luan Trauczynski Sckreurs 
+TURMA: 3ª Série k
+*/
 const numeroSenha = document.querySelector('.parametro-senha__texto');
 let tamanhoSenha = 12;
 numeroSenha.textContent = tamanhoSenha;
@@ -54,6 +59,8 @@ function geraSenha() {
     }
     campoSenha.value = senha;
     classificaSenha();
+
+    return senha;
 }
 
 function classificaSenha(){
